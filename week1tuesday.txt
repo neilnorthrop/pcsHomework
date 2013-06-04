@@ -1,0 +1,55 @@
+Week 1 — Homefun
+Main project
+
+No main project this week
+Tuesday
+Reading to do before class
+
+Chris Pine’s Learn to Program (Chapter 1-5)
+(Even students) Chapters 6,9
+(Odd students) Chapters 7,8
+Reading questions due before class
+
+What is your favorite color?
+-Blue
+How old are you in seconds? (If you did this with only a calculator how would you do it?)
+-946,080,000 seconds (age_seconds = (age * 365 * 24 * 60 *60))
+What is a String?
+-A group of characters in a program between single or double quotes.
+What’s the difference between single and double-quoted strings?
+-Not much, but you can use single in double quotes allowing for many more escape sequences.
+How do you use a quote mark inside of a string? (escaping characters)
+-By using an escape character "\" before a quote.
+What is a variable?
+-Variables store strings or integers in computer memory assigning it to a value to use whenever called.
+How do you put a variable inside a string? (interpolation or concatenation)
+-Using interpolation with #{expression} or string concatenation with the "+" method.
+What does the to_s or the to_i method do and why do we need them? (type casting)
+-to_s and to_i methods allow for easy conversion from string to integer and back. If you use the .gets method, you'll need to use to_i to change it to an integer if you need to do math with it.
+
+Odds:
+
+Why is 2 < 10 #=> true but '2' < '10' #=> false? (lexicographical ordering)
+-With lexicographical ordering, Ruby will evaluate the expressions you are comparing from left to right. If the values are the same, it'll go to the next to the right until it can evaluate different vaules. When you compare '2' < '10 it'll compare '2' < '1' first and come back false.
+What are the only two values that evaluate to false in Ruby? (falsy values)
+-nil and false
+What happens if you use = instead of == in a conditional?
+-"=" will assign the value on the right to the value on the left.
+What keyword do you use to stop a loop?
+-break
+If you end up executing an infinite loop how do you stop it? (SIGKILL)
+-control c
+Why would you ever want to use while true?
+-to loop
+What do the && and || operators do? (logical operators)
+-"&&" will evaluate both values on the right and left which both will need to evaluate to true; "||" will evaluate evaluate both values but pick one OR the other.
+What is the difference between if !false and unless false? (logical not)
+-"if !false" = loop runs if not false; "unless false" = loops until it evaluates to false
+What is an array?
+-a list or collection of values stored together.
+What does it mean for an array to be zero indexed?
+-the values of an array start counting from 0 up
+What is the method in 8.1 we use to walk over all values in an array?
+-.each do
+What do push, pop, and last do? Is there a first?
+-push adds an object to the end of your array, and pop removes the last object from the array (and tells you what it was). last is similar to pop in that it tells you what’s at the end of the array, except that it leaves the array alone. yes there is a first method, it just shows what's in the first index. Index 0.
