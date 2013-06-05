@@ -1,0 +1,37 @@
+Reading questions due before class
+
+What is recursion?
+	-a method that calls itself
+When learning recursion, what is the defacto “hello world” style program?
+	def factorial num 
+		if num < 0
+			return 'You can\'t take the factorial of a negative number!' 
+		end
+		if num <= 1 
+			1
+		else
+		    num * factorial(num-1)
+		end 
+	end
+Use pseudo code to complete a recursive sort
+Hint: There are three steps to any recursive algorithm
+Check to see if there’s any work left to do and return if not. (early return)
+Do some work (reduce the problem)
+Call yourself (recurse) (sometimes 2 & 3 are the same step)
+
+Odds:
+
+What does + do to a Time object?
+	-Adds time to the object.
+Explain what the epoch is. When does the epoch end? What happened to 30-year house loans in 2008?
+	-Ruby thinks the world began at epoch: the stroke of midnight, January 1, 1970, GMT. I imagine the interest from before 1970 got added on.
+How is a Hash different from an Array?
+	-An array is basically an ordered list indexed starting from 0. A Hash is an unordered list indexed by user inputed assignments.
+When using each on a Hash, will objects always come out in the correct order?	
+	-No
+What is a Range? How do you puts all the numbers from 0 to 26?
+	num = (1..26)
+	num_a = num.to_a
+	puts num_a
+What is the difference between Time.now.class and Time.class?
+	-Time.now.class, Time is the class. With Time.class, Class is the class.
