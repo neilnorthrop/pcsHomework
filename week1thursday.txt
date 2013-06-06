@@ -1,0 +1,20 @@
+Reading questions due before class
+
+What is a REPL?
+	-a simple way to make an interactive interface to their programming language.
+ Is irb a REPL, why or why not?
+ 	-Ruby's standard library contains a module called IRB which stands for Interactive Ruby Shell which provides a REPL. 
+Why is the PickAxe book called PickAxe?
+	-there’s a picture of a pickaxe on the cover of the book
+Evens:
+
+How do we add methods to existing classes or modules (Reopening)
+Why would we want to reopen a class or a module?
+What is the first method called when you instanciate an object
+	-def initialize
+Could you call initialize or redefine new?
+	-yes and no
+	 Why would you or wouldn’t you do that?
+	 	-you never want to redefine .new
+What does the private keyword do?
+	-keeps methods "under the hood" and away from the user after the program is running
