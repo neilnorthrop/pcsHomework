@@ -11,12 +11,16 @@ What two values evaluate to false inside an if?
 What is a ternary expression used for (?:)?
 	-the if statement
 What is a “guarded or” used for (||=)?
-	-
+	-setting the value of a variable unless nil
 What’s the fastest way to make an array of words?
 	-'variable' = %w{words to make an array}
 When using symbols as Hash keys, what are the two ways to initialize a Hash using the curly brace notation? (1.9 hash syntax)
 	-{:first_name => 'Russ'} or {first_name: 'Russ'}
 What is the name of the * operator?
+	-splat
 Should you use a for loop to iterate over an Array or Hash? If not, what’s the alternative?
+	-No, iterate with the .each method
 What is the difference between each and map?
+	-.each iterates without changing and .map iterates with the intenate of changing the hash
 What is a bang method?
+	-The bang method will change your collection or variable for which the band method is being called on.
