@@ -1,0 +1,25 @@
+In your own words, summarize the 7 things on page 9-11 that jQuery does well
+	-jQuery's selector mechanism allows for developers to pick an HTML's elements easly.
+	-jQuery can change CSS elements across browsers with easy even after a page is loaded.
+	-jQuery's API can not only modify the cosmetics of a page but also the content.
+	-jQuery's API also allows event-handling without all the HTML even-handler code.
+	-jQuery's library facilitates a veriaty of animations to the changes on the site.
+	-jQuery makes it easier to communicate between client and server.
+	-jQuery's library provides enhancements to basic JavaScript.
+How do you include external javascript files in HTML
+	-<script src="jquery.js></script>"
+Should jquery.js get included before or after our project files?
+	-After
+What does this code do and why do we use it? $(document).ready()
+	-To check that the document(website) is all loaded and ready to respond to jQuery
+What code would you use to select these things:
+an element - $('p')
+an id - $('#some-id')
+a class - $('.some-class')
+a p tag, inside a div with class “turkey”, inside a body with the id “thanksgiving”.
+	- $('body#thanksgiving > div.turkey > p')
+How would you add “tiger stripes” to a table with jQuery? (tiger stripes are alternating background colors)
+	- $('tr:even').addClass('alt');
+How do we select only checkboxes that are currently checked?
+	-$('input[type="checkbox"]:checked')
+(research) What is the keyboard command to open the Chrome element inspector? To open the Chrome console? - option+command+i
