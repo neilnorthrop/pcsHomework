@@ -10,8 +10,14 @@ How do you bind a click event to a button?
 	});
 Inside a click handler, what is the variable this set to?
 What is event bubbling?
+	-The event gets sent to the most specific element, and after this element has an opportunity to react, the event bubbles up to more general elements.
 How do we stop an event from bubbling up the chain?
+	-By using the event object method .stopPropagation(), which can halt the bubbling process completely for the event.
 How do we stop an element from taking its default action (e.g. a submit button will refresh the page or submit a form)
+	-By calling .preventDefault.
 How do we remove a binding?
+	-$('#switcher').unbind('click');
 How do we hide and show elements?
+	-.hide() and .show()
 How do we blur or slide elements?
+	-.slideDown() and .slideUp()
