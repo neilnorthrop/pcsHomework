@@ -1,0 +1,17 @@
+What is the most common short version of $(document).ready()?
+	-$(function() {
+		//code here
+	});
+What is “progressive enhancement”?
+	-The style switcher should either be hidden when JavaScript is unavailable or, better yet, should still function through links to alternative versions of the page.
+How do you bind a click event to a button?
+	-$('button-name').bind('click', function() {
+		//code here
+	});
+Inside a click handler, what is the variable this set to?
+What is event bubbling?
+How do we stop an event from bubbling up the chain?
+How do we stop an element from taking its default action (e.g. a submit button will refresh the page or submit a form)
+How do we remove a binding?
+How do we hide and show elements?
+How do we blur or slide elements?
